@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2015 Waterloo Mobile Studio
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <!-- App-related main option array. For example, size -->
+    <string-array name="appMainOptionArray">
+    	<item name="1">12.5cm</item>
+    	<item name="2">13cm</item>
+    	<item name="3">13.5cm</item>
+    	<item name="4">14cm</item>
+    	<item name="5">14.5cm</item>
+    	<item name="6">15cm</item>
+    	<item name="7">15.5cm</item>
+    	<item name="8">16cm</item>
+    	<item name="9">16.5cm</item>
+    	<item name="10">17cm</item>
+    	<item name="11">17.5cm</item>
+    	<item name="12">18cm</item>
+    	<item name="13">18.5cm</item>
+    	<item name="14">19cm</item>
+    	<item name="15">19.5cm</item>
+    	<item name="16">20cm</item>
+    	<item name="17">20.5cm</item>
+    	<item name="18">21cm</item>
+    	<item name="19">21.5cm</item>
+    	<item name="20">22cm</item>
+    	<item name="21">22.5cm</item>
+    	<item name="22">23cm</item>
+    	<item name="23">23.5cm</item>
+    	<item name="24">24cm</item>
+    	<item name="25">24.5cm</item>
+    	<item name="26">25cm</item>
+    	<item name="27">25.5cm</item>
+    	<item name="28">26cm</item>
+    	<item name="29">26.5cm</item>
+    	<item name="30">27cm</item>
+    	<item name="31">27.5cm</item>
+    	<item name="32">28cm</item>
+    	<item name="33">28.5cm</item>
+    	<item name="34">29cm</item>
+    	<item name="35">29.5cm</item>
+    	<item name="36">30cm</item>
+    	<item name="37">30.5cm</item>
+    	<item name="38">31cm</item>
+    	<item name="39">31.5cm</item>
+    	<item name="40">32cm</item>
+    	<item name="41">32.5cm</item>
+    	<item name="42">33cm</item>
+    	<item name="43">33.5cm</item>
+    </string-array>    
+    
+</resources>

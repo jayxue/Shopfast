@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2015 Waterloo Mobile Studio
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/generalBackground">
+
+        <WebView
+            android:id="@+id/webViewCart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/relativeLayoutTaxAndShipping"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPayPal"
+            android:layout_width="194dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#2e2e2e"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutTaxAndShipping"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_above="@+id/linearLayoutPayPal"
+            android:background="#ececec" >
+
+	        <TextView
+	            android:id="@+id/textViewItemNumber"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentStart="true"
+	            android:layout_marginStart="10dp"
+	            android:layout_marginBottom="5dp"
+	            android:text="@string/itemsInCart"
+	            android:textSize="14sp" />
+	
+	        <TextView
+	            android:id="@+id/textViewTotal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_toEndOf="@+id/textViewItemNumber"
+	            android:layout_marginStart="80dp"
+	            android:layout_marginBottom="5dp"
+	            android:text="@string/itemTotal"
+	            android:textSize="14sp" />
+
+	        <TextView
+	            android:id="@+id/textViewShippingCost"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_above="@+id/textViewTotal"
+	            android:layout_alignStart="@+id/textViewTotal"
+	            android:layout_marginBottom="5dp"
+	            android:text="@string/shippingCost"
+	            android:textSize="14sp" />
+	        	        	
+	        <TextView
+	            android:id="@+id/textViewTax"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_above="@+id/textViewItemNumber"
+	            android:layout_alignStart="@+id/textViewItemNumber"
+	            android:layout_marginBottom="5dp"
+	            android:text="@string/tax" />
+	
+	        <Spinner
+	            android:id="@+id/spinnerProvinces"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_above="@+id/textViewTax"
+	            android:layout_marginBottom="5dp"
+	            android:layout_toEndOf="@+id/textViewItemNumber" />
+	
+	        <Spinner
+	            android:id="@+id/spinnerCountries"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_above="@+id/spinnerProvinces"
+	            android:layout_marginBottom="5dp"
+	            android:layout_toEndOf="@+id/textViewItemNumber" />
+	
+	        <TextView
+	            android:id="@+id/textViewCountry"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBottom="@+id/spinnerCountries"
+	            android:layout_alignStart="@+id/textViewProvince"
+	            android:text="@string/country"
+	            android:textSize="14sp" />
+	
+	        <TextView
+	            android:id="@+id/textViewProvince"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBottom="@+id/spinnerProvinces"
+	            android:layout_alignStart="@+id/textViewTax"
+	            android:text="@string/province" />
+                            
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBarCart"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+</RelativeLayout>

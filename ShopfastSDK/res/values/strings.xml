@@ -1,0 +1,66 @@
+<!--
+  Copyright 2015 Waterloo Mobile Studio
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">Shopfast</string>
+
+    <string name="noNetworkAvailable">There is no available network connection. You will be unable to access the latest information.</string>
+
+    <string name="error">Error</string>
+    <string name="retryOnError">The app encourntered an error. Please try again.</string>
+    <string name="loadingProducts">Loading products&#8230;</string>
+    
+    <string name="collectionsActivityTitle">Collections</string>
+    <string name="productsActivityTitle">Products</string>
+    <string name="productDetailsActivityTitle">Product Details</string>
+    <string name="cartActivityTitle">Items in Cart</string>
+    
+    <string name="collection">Collection</string>
+    <string name="productName">Product Name</string>
+    <string name="productDesc">Product Description</string>
+    <string name="options">Options</string>
+    <string name="addToCart">Add to Cart</string>
+    <string name="refresh">Refresh</string>
+    <string name="cart">Cart</string>
+    <string name="itemsInCart">Items in cart: </string>
+    <string name="itemTotal">Total: </string>
+    <string name="shippingCost">Shipping: </string>
+    <string name="tax">Tax: </string>
+    <string name="country">Country: </string>
+    <string name="province">Province: </string>
+    
+    <string name="placeHolderImage">http://www.jetcooper.com/wp-content/themes/jc/img/shopify-icon.png</string>
+    
+    <string name="cartBackgroundColor">#fd8283</string>
+    
+    <!-- Persist files -->    
+    <string name="collectionsFileName">Collections.json</string>
+    <string name="productsCountInCollectionsFileName">ProductsCountInCollections.json</string>
+    <string name="cartFileName">Cart.json</string>
+
+    <!-- CharSet (encoding) of text files. It can be GB2312, BIG5, or UTF-8. -->
+    <string name="charSetName">UTF-8</string>
+    
+    <string name="currencyType">USD</string>
+    
+    <!-- Information to be provided by each Shopify merchant -->
+    <string name="ShopifyAPIKey"></string>
+    <string name="ShopifySharedSecret"></string>
+    <string name="ShopifyShopName"></string>
+    <string name="ShopifyPassword"></string>
+    <string name="mainOptionName"></string>
+    
+</resources>

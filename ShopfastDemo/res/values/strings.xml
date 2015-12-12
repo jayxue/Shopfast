@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Shopfast Demo</string>
+
+    <!-- Information to be provided by each Shopify merchant -->
+    <string name="ShopifyAPIKey">f914c99c7279d4da8700a80563f17050</string>
+    <string name="ShopifySharedSecret">7c4eb33c066e2217c79d332f7100d298</string>
+    <string name="ShopifyShopName">pheromones</string>
+    <string name="ShopifyPassword">ef718528de871be44099bb340dd7f27a</string>
+
+    <string name="mainOptionName">Size</string>
+    
+</resources>
